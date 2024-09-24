@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #000;
+}
+
+.box-about {
+    color: #fff;
+    margin-left: 8%;
+    margin-right: 10%;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        top: -60px;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        color: #f9004d;
+    }
+}
+
+.text-about{
+    padding-top: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
