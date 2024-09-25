@@ -1,0 +1,74 @@
+.projects {
+    height: 100%;
+    width: 100vw;
+    background-color: #191919;
+
+    h1 {
+        padding-top: 50px;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        color: #f9004d;
+        text-align: center;
+    }
+}
+
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 40px;
+}
+
+.my-projects div {
+    background-color: #000;
+    width: 400px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.controle-de-despesas {
+    width: 250px !important;
+}
+
+.my-projects div img {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.informations {
+    color: #fff;
+
+    h3 {
+        padding-bottom: 10px;
+    }
+
+    p {
+        padding-bottom: 20px;
+        line-height: 25px;
+        margin-right: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #f9004d;
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    a:hover {
+        background-color: transparent;
+        border: 3px solid #f9004d;
+    }
+}
+
+.links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}

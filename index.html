@@ -8,6 +8,7 @@
     <title>Evaristo Carlos</title>
     <link rel="stylesheet" href="./styles/navbar-and-home.css">
     <link rel="stylesheet" href="./styles/sobre.css">
+    <link rel="stylesheet" href="./styles/projects.css">
 </head>
 
 <body>
@@ -15,16 +16,16 @@
         <nav class="navigation">
             <h2 class="portfolio">Portifó<span>lio</span></h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projectos</a></li>
-                <li><a href="#">Fale comigo</a></li>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">Sobre</a></li>
+                <li><a class="nav-link" href="#">Projectos</a></li>
+                <li><a class="nav-link" href="#">Fale comigo</a></li>
             </ul>
         </nav>
         <div class="home">
             <div class="my-name">
                 <h1>Evaristo <span>Carlos</span></h1>
-                <h3>Programador Front End</h3>
+                <h3>Desenvolvedor Front End</h3>
             </div>
             <div class="skills">
                 <h1>Skills</h1>
@@ -52,19 +53,104 @@
         </div>
     </div>
 
-    <section>
+    <section class="about">
         <img width="500" src="./img/foto-principal.png" alt="Foto do Evaristo">
         <div class="box-about">
             <h1>Sobre mim</h1>
             <p class="text-about">
-                Sou um desenvolvedor web frontend júnior, com sólida experiência em JavaScript e especializado na biblioteca React para a criação de interfaces de usuário dinâmicas e responsivas. Sou estudante de Engenharia Informática, o que me proporciona uma base teórica robusta aliada à aplicação prática de tecnologias modernas no desenvolvimento web.
+                Sou um desenvolvedor web frontend júnior, com sólida experiência em JavaScript e especializado na
+                biblioteca React para a criação de interfaces de usuário dinâmicas e responsivas. Sou estudante de
+                Engenharia Informática, o que me proporciona uma base teórica robusta aliada à aplicação prática de
+                tecnologias modernas no desenvolvimento web.
             </p>
             <p class="text-about">
-                Tenho paixão por transformar ideias e conceitos em aplicações funcionais e intuitivas, sempre buscando entregar a melhor experiência ao usuário final. Minha trajectória acadêmica e prática tem me preparado para enfrentar os desafios do desenvolvimento frontend, e minha curiosidade constante me impulsiona a aprender novas tecnologias relacionadas a este sector.
+                Tenho paixão por transformar ideias e conceitos em aplicações funcionais e intuitivas, sempre buscando
+                entregar a melhor experiência ao usuário final. Minha trajectória acadêmica e prática tem me preparado
+                para enfrentar os desafios do desenvolvimento frontend, e minha curiosidade constante me impulsiona a
+                aprender novas tecnologias relacionadas a este sector.
             </p>
             <p class="text-about">
-                Estou sempre disposto a enfrentar novos desafios e aprimorar minhas habilidades, com o objectivo de contribuir para o sucesso dos projectos em que actuo e crescer como profissional no universo do desenvolvimento web.
+                Estou sempre disposto a enfrentar novos desafios e aprimorar minhas habilidades, com o objectivo de
+                contribuir para o sucesso dos projectos em que actuo e crescer como profissional no universo do
+                desenvolvimento web.
             </p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h1>Principais Projectos</h1>
+        <div class="my-projects">
+
+            <div>
+                <img src="./img/movies_lib.PNG" alt="Biblioteca de filmes">
+                <div class="informations">
+                    <h3>Descrição</h3>
+                    <p>
+                        Esta é uma plataforma que permite encontrar qualquer filme e informações adicionais sobre o
+                        mesmo filme.
+                    </p>
+                    <div class="links">
+                        <a href="">Ver Projecto</a>
+                        <a href="">Repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/lyrics-search.PNG" alt="Letras de músicas">
+                <div class="informations">
+                    <h3>Descrição</h3>
+                    <p>
+                        Neste site podemos letras das músicas de determinados cantores
+                    </p>
+                    <div class="links">
+                        <a href="">Ver Projecto</a>
+                        <a href="">Repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/previsao.PNG" alt="Previsão do Tempo">
+                <div class="informations">
+                    <h3>Descrição</h3>
+                    <p>
+                        Esta plataforma nos retorna informações relacionadas ao tempo da cidade mencionada na barra de pesquisa.
+                    </p>
+                    <div class="links">
+                        <a href="">Ver Projecto</a>
+                        <a href="">Repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/validations.PNG" alt="Nova Conta">
+                <div class="informations">
+                    <h3>Descrição</h3>
+                    <p>
+                        Esta página avalia os campos não preenchidos e exige que os mesmos sejam preenchidos antes de submeter o formulário
+                    </p>
+                    <div class="links">
+                        <a href="">Ver Projecto</a>
+                        <a href="">Repositório</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controle-de-despesas">
+                <img src="./img/controle-de-despesas.PNG" alt="Controle de Despesas">
+                <div style="width: 250px;" class="informations">
+                    <h3>Descrição</h3>
+                    <p>
+                        Este sistema faz o somatório das receitas bem como das despesas e ainda retorna o saldo actual
+                    </p>
+                    <div style="width: 250px;" class="links">
+                        <a href="">Ver Projecto</a>
+                        <a href="">Repositório</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
