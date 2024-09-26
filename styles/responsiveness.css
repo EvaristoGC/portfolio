@@ -1,0 +1,62 @@
+@media screen and (max-width: 900px) {
+    .navigation ul {
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .skills {
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about img {
+        margin-bottom: 20px;
+    }
+    .box-about h1{
+        position: static;
+        text-align: center;
+    }
+    .my-projects{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .my-name h3{
+        line-height: 70px;
+    }
+    .my-projects{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1231px) {
+    .my-name h3{
+        line-height: 70px;
+    }
+    .my-name h1 {
+        margin-bottom: 20px;
+    }
+
+    .box-about h1 {
+        padding-top: 50px;
+    }
+
+    .text-about {
+        padding-top: 35px;
+    }
+}
+
