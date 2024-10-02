@@ -18,24 +18,21 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 50px;
-    gap: 40px;
 }
 
-.my-projects div {
+.cards {
     background-color: #000;
     width: 400px;
-    padding-bottom: 5px;
-    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.controle-de-despesas {
-    width: 250px !important;
-}
-
-.my-projects div img {
-    width: 100%;
+.cards img {
+    max-width: 100%;
     height: 300px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
