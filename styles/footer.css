@@ -6,20 +6,21 @@
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 
     h3 {
-        padding-bottom: 20px;
+        padding-bottom: 2rem;
         font-family: "Merriweather", serif;
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     p {
-        margin-bottom: 20px;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
     }
 }
 
 .contact a img {
-    width: 50px;
+    max-width: 5rem;
 }
