@@ -1,3 +1,25 @@
+@media screen and (max-width: 450px) {
+    .cards {
+        height: 30rem;
+
+        img {
+            height: 20rem;
+        }
+
+        .informations {
+            a {
+
+                font-size: 5%;
+            }
+
+            h3,
+            p {
+                display: none;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 900px) {
     .navigation ul {
         display: none;
@@ -54,5 +76,9 @@
     .my-projects {
         display: flex;
         flex-direction: column;
+    }
+
+    .cards {
+        max-width: 100%;
     }
 }
